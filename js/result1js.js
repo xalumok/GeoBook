@@ -30,7 +30,7 @@ $(function() {
                                 $(".outer").removeClass("fadeIn");
                                 $(".outer").addClass("fadeOut");
                                 setTimeout(function () {
-                                    $(".outer").html("Don't try to cheat, because I know which countries exist and which don't!");
+                                    $(".outer").html("But don't try to cheat, I have a huge map with all countries!");
                                     $(".outer").removeClass("fadeOut");
                                     $(".outer").addClass("fadeIn");
 
