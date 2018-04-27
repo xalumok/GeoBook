@@ -176,7 +176,7 @@ $(function () {
     }
 
     function startCountdown(){
-        var minutes = 2;
+        var minutes = 1.5;
         secondsRemaining = minutes * 60;
         intervalHandle = setInterval(tick, 1000);
     }

@@ -1,7 +1,7 @@
 
 
 $(function() {
-
+    var coments = ["That's right!", "You got it!", "Good work!", "Fantastic!", "Super!", "Excellent!", "Brilliant!", "Wonderful!", "Perfect!"];
     var main = $("main");
     function UrlExists(url){
         var http = new XMLHttpRequest();
@@ -15,7 +15,6 @@ $(function() {
         $(".radio").each(function(){
             $(this).prop("checked", false);
         });
-        //main.addClass("fadeInDown");
 
         $.getJSON("json/countries.json", function (data) {
             var maxN = data.length;
@@ -51,8 +50,18 @@ $(function() {
         var tthis = this;
         $(this).addClass("makeRed");
         document.getElementsByClassName("ansOuter")[ans].classList.add("makeGreen");
-        if (number===ans)
-            $('.scoreCnt').html(parseInt($('.scoreCnt').html(), 10)+1);
+        if (number===ans) {
+            $('.scoreCnt').html(parseInt($('.scoreCnt').html(), 10) + 1);
+            var comentn = Math.floor(Math.random() * coments.length);
+            $(".coment").html(coments[comentn]);
+            $(".coment").addClass("flipInY");
+            $(".coment").addClass("green");
+        }
+        else{
+            $(".coment").html("Sorry, incorrect");
+            $(".coment").addClass("jackInTheBox");
+            $(".coment").addClass("red");
+        }
         answered=1;
         setTimeout(
             function(){
@@ -69,7 +78,11 @@ $(function() {
                 }
                 setTimeout(
                     function () {
-                        //main.removeClass("fadeOutDown");
+                        $(".coment").removeClass("jackInTheBox");
+                        $(".coment").removeClass("green");
+                        $(".coment").removeClass("red");
+                        $(".coment").removeClass("flipInY");
+                        $(".coment").html("");
                         $(tthis).removeClass("makeRed");
                         document.getElementsByClassName("ansOuter")[ans].classList.remove("makeGreen");
                         newQue();
