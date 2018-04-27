@@ -27,7 +27,7 @@ $(function() {
             }
             ans = Math.floor(Math.random() * 3);
             used.push(seq[ans]);
-            $(".flagimg").attr("src", "img/"+(data[seq[ans]].code2l).toUpperCase()+".png");
+            $(".flagimg").attr("src", "img/"+(data[seq[ans]].code2l).toLowerCase()+".png");
             $(".radio-label").each(function (index) {
                 $(this).text(data[seq[index]].name);
             });
