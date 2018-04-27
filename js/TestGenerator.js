@@ -3,7 +3,7 @@
 $(function() {
     var coments = ["That's right!", "You got it!", "Good work!", "Fantastic!", "Super!", "Excellent!", "Brilliant!", "Wonderful!", "Perfect!"];
     var main = $("main");
-    var used = [], quecnt=0, ans, answered=0;
+    var used = [], quecnt=0, ans, answered=0, acnt=0;
     function newQue(){
         $(".radio").each(function(){
             $(this).prop("checked", false);
@@ -43,12 +43,13 @@ $(function() {
         var tthis = this;
         $(this).addClass("makeRed");
         document.getElementsByClassName("ansOuter")[ans].classList.add("makeGreen");
+
         if (number===ans) {
-            $('.scoreCnt').html(parseInt($('.scoreCnt').html(), 10) + 1);
             var comentn = Math.floor(Math.random() * coments.length);
             $(".coment").html(coments[comentn]);
             $(".coment").addClass("flipInY");
             $(".coment").addClass("green");
+            acnt++;
         }
         else{
             $(".coment").html("Sorry, incorrect");
@@ -58,11 +59,9 @@ $(function() {
         answered=1;
         setTimeout(
             function(){
-                // main.removeClass("fadeInUp");
-                // main.addClass("fadeOutDown");
                 main.fadeOut();
                 if (quecnt===10){
-                    localStorage.setItem("score", parseInt($('.scoreCnt').html(), 10));
+                    localStorage.setItem("score", acnt);
                     setTimeout(function () {
                         window.location.replace("result1.html");
                         return 0;
@@ -77,6 +76,7 @@ $(function() {
                         $(".coment").removeClass("flipInY");
                         $(".coment").html("");
                         $(tthis).removeClass("makeRed");
+                        $('.scoreCnt').html(parseInt($('.scoreCnt').html(), 10) + 1);
                         document.getElementsByClassName("ansOuter")[ans].classList.remove("makeGreen");
                         newQue();
                     }, 700);
