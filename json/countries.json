@@ -1690,19 +1690,6 @@
         "zoom": "6"
     },
     {
-        "id": "229",
-        "enabled": "1",
-        "code3l": "NFK",
-        "code2l": "NF",
-        "name": "Norfolk Island",
-        "name_official": "Norfolk Islands",
-        "flag_32": "NF-32.png",
-        "flag_128": "NF-128.png",
-        "latitude": "-29.02801043",
-        "longitude": "167.94303023",
-        "zoom": "13"
-    },
-    {
         "id": "188",
         "enabled": "1",
         "code3l": "PRK",
@@ -1909,19 +1896,6 @@
         "latitude": "-1.98589079",
         "longitude": "29.94255855",
         "zoom": "8"
-    },
-    {
-        "id": "200",
-        "enabled": "1",
-        "code3l": "BLM",
-        "code2l": "BL",
-        "name": "Saint Barth\u00e9lemy",
-        "name_official": "Territorial collectivity of Saint Barth\u00e9lemy",
-        "flag_32": "BL-32.png",
-        "flag_128": "BL-128.png",
-        "latitude": "17.90042417",
-        "longitude": "-62.83376215",
-        "zoom": "13"
     },
     {
         "id": "136",
