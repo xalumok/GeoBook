@@ -1,0 +1,142 @@
+html ,body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'iconicfill', sans-serif;
+  height:100%;
+  width: 100%;
+  background: linear-gradient(to right top, #8bb9ff, #59c8ff, #2bd3f4, #3adcdd, #6ae1c0);
+}
+
+
+
+.banner {
+  margin-top: 1em;
+  font-size: .8em;
+  z-index: 1;
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  background: #008b8b;
+  left: 66.66666%;
+  margin-left: -150px;
+  margin-bottom: .5em;
+  position: relative;
+  &:before {
+    z-index: -1;
+    content: "";
+    display: block;
+    top: 5px;
+    position: absolute;
+    border-top: 10px solid #007172;
+    border-bottom: 20px solid #007172;
+    right: 100%;
+    margin-right: 0;
+    border-right: 10px solid #007172;
+    border-left: 5px solid transparent;
+  }
+  &:after {
+    z-index: -1;
+    content: "";
+    display: block;
+    top: 5px;
+    position: absolute;
+    border-top: 10px solid #007172;
+    border-bottom: 20px solid #007172;
+    left: 100%;
+    margin-left: 0;
+    border-left: 10px solid #007172;
+    border-right: 5px solid transparent;
+  }
+}
+
+.frame{
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border-radius: .7em;
+}
+
+.prizeimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.outercong{
+  width: 20em;
+  height: 22.5em;
+}
+
+.scoretext{
+  padding-top: 1em;
+  text-align: center;
+  font-size: 1em;
+}
+
+.tquote{
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  color: teal;
+  margin: 0;
+}
+
+.animate{
+  transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+}
+
+.buttonss{
+  position: relative;
+  bottom: -2.5em;
+  left: 2em;
+}
+
+.action-button{
+  text-decoration: none;
+  position: relative;
+  padding: .4em 1.5em;
+  margin: 0 2em 1.2em 0;
+  float: left;
+  border-radius: 6px;
+  font-size: 1em;
+  color: #FFF;
+  &:hover{
+    text-decoration: none;
+    color:#FFF;
+  }
+  &:active{
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    border-bottom: 1px solid;
+  }
+}
+
+.blue{
+  background-color: #3498DB;
+  border-bottom: 5px solid #2980B9;
+  text-shadow: 0px -2px #2980B9;
+}
+
+.green{
+  background-color: #82BF56;
+  border-bottom: 5px solid #669644;
+  text-shadow: 0px -2px #669644;
+}
+
+.outer{
+  font-size: 180%;
+  color:white;
+}
+
+.smallerText{
+  font-size: 180%!important;
+}

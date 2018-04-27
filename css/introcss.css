@@ -1,0 +1,24 @@
+body, html {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: 'iconicfill', sans-serif;
+  height: 99%;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#eeeeff), color-stop(#e8f4ff), color-stop(#e6f9ff), color-stop(#e9fcfd), to(#f0fffa));
+  background-image: -webkit-linear-gradient(left bottom, #eeeeff, #e8f4ff, #e6f9ff, #e9fcfd, #f0fffa);
+  background-image: -o-linear-gradient(left bottom, #eeeeff, #e8f4ff, #e6f9ff, #e9fcfd, #f0fffa);
+  background-image: linear-gradient(to right top, #eeeeff, #e8f4ff, #e6f9ff, #e9fcfd, #f0fffa); }
+
+.outer {
+  font-size: 300%;
+  padding: 5%; }
+
+.smallerText {
+  font-size: 180% !important; }

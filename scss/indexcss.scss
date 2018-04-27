@@ -1,0 +1,89 @@
+html ,body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'iconicfill', sans-serif;
+  height:100%;
+  width: 100%;
+  background: linear-gradient(to right top, #8bb9ff, #59c8ff, #2bd3f4, #3adcdd, #6ae1c0);
+}
+
+
+
+.frame{
+  height: 40%;
+  width: 30%;
+  padding: 2em;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border-radius: .7em;
+}
+
+
+.tquote{
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  color: teal;
+  margin: 0;
+}
+
+.outer{
+  font-size: 180%;
+  color:white;
+}
+
+.smallerText{
+  font-size: 180%!important;
+}
+
+.progname{
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.animate{
+  transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+}
+
+.buttonss{
+  margin-top: 2em;
+}
+
+.action-button {
+  color: white;
+  display: block;
+  padding: .8em 1em;
+  text-align: center;
+  border-radius: 8px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-bottom: .8em;
+  &:hover {
+    cursor: pointer;
+  }
+  //&:active {
+  //  box-shadow: none;
+  //  border-bottom: none;
+  //  top: 5px;
+  //}
+}
+
+.blue{
+  background-color: #3498DB;
+  //border-bottom: 5px solid #2980B9;
+}
+
+.green{
+  background-color: #82BF56;
+  //border-bottom: 5px solid #669644;
+}
+
+.red{
+  background-color: #ff00e7;
+  //box-shadow: 0 5px 0 darkred;
+  //border-bottom: 5px solid darkred;
+}

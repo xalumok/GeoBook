@@ -1,0 +1,78 @@
+html, body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: 'iconicfill', sans-serif;
+  height: 100%;
+  width: 100%;
+  background: -webkit-gradient(linear, left bottom, right top, from(#8bb9ff), color-stop(#59c8ff), color-stop(#2bd3f4), color-stop(#3adcdd), to(#6ae1c0));
+  background: -webkit-linear-gradient(left bottom, #8bb9ff, #59c8ff, #2bd3f4, #3adcdd, #6ae1c0);
+  background: -o-linear-gradient(left bottom, #8bb9ff, #59c8ff, #2bd3f4, #3adcdd, #6ae1c0);
+  background: linear-gradient(to right top, #8bb9ff, #59c8ff, #2bd3f4, #3adcdd, #6ae1c0); }
+
+.frame {
+  height: 40%;
+  width: 30%;
+  padding: 2em;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: white;
+  border-radius: .7em; }
+
+.tquote {
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  color: teal;
+  margin: 0; }
+
+.outer {
+  font-size: 180%;
+  color: white; }
+
+.smallerText {
+  font-size: 180% !important; }
+
+.progname {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold; }
+
+.animate {
+  -o-transition: all 0.1s;
+  transition: all 0.1s;
+  -webkit-transition: all 0.1s; }
+
+.buttonss {
+  margin-top: 2em; }
+
+.action-button {
+  color: white;
+  display: block;
+  padding: .8em 1em;
+  text-align: center;
+  border-radius: 8px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-bottom: .8em; }
+  .action-button:hover {
+    cursor: pointer; }
+
+.blue {
+  background-color: #3498DB; }
+
+.green {
+  background-color: #82BF56; }
+
+.red {
+  background-color: #ff00e7; }

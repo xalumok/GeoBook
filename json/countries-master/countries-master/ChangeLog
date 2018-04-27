@@ -1,0 +1,44 @@
+2016-06-30 Stefan Radu Popescu <radu.popescu@eaudeweb.ro>
+    * Added translations
+    * Added table countryname
+    * Added mysql foreign keys for all tables where required
+    * Added mysql unique constraint on countryname table (country, language)
+    * Changed metadata configuration to annotation based in bootstrap.php
+    * Removed YAML ORM configuration files
+    * Changed and added ORM entities. They now contain relationship and constraint
+        annotations as well as one-to-many collections.
+    * Added function get_countries_full in bootstrap.php
+
+
+2014-07-07 Cristian Romanescu <cristian@romanescu.ro>
+	* Fixed flag names to use the actual ISO code instead of country name
+	* Streamlined the build process
+	* Added latitude/longitude to the country table
+
+2012-09-30 Cristian Romanescu <cristian@romanescu.ro>
+	* Fixed names and official names from ISO & EU sites
+	* Changed DB structure to separate name and official names
+
+2012-09-26 Cristian Romanescu <cristian@romanescu.ro>
+	* Added JSON and CSV formats for country data
+
+2012-08-27 Cristian Romanescu <cristian@romanescu.ro>
+	* Updated flags to hi-quality version, manually adjusted
+	* Added sample script for PHP language
+
+2011-12-27 Cristian Romanescu <cristian@romanescu.ro>
+	* Organized with sub-directories for each DB
+	* Added language table with ISO 639-1 and ISO 639-2 languages
+	* Updated README and ChangeLog
+
+2011-04-02 Cristian Romanescu <cristian@romanescu.ro>
+	* Added the README and ChangeLog files
+
+2011-04-01 Cristian Romanescu <cristian@romanescu.ro>
+	* Initial import into the GitHub.com repository
+
+
+
+ Copyright 2011 Cristian Romanescu
+ Copying and distribution of this file, with or without modification, are
+ permitted provided the copyright notice and this notice are preserved.

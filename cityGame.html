@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Country Guess</title>
+    <link rel="stylesheet" href="css/cityGamecss.css">
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <main class="animated">
+        <div class="timer">
+            <div id="container">
+                <h1 id="time">0:00</h1>
+            </div>
+        </div>
+
+        <div class="scoretab animated">
+            Score: <span class="scorecnt animated">0</span>
+        </div>
+
+        <table>
+            <tbody>
+            </tbody>
+        </table>
+        <div class="answer">
+            <input id="inputcountry" type="text" placeholder="Country">
+            <a href="#" class="submitbut action-button shadow animate green">Submit</a>
+        </div>
+    </main>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/typed.js/lib/typed.js"></script>
+    <script src="js/cityGamejs.js"></script>
+</body>
+</html>

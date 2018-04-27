@@ -1,0 +1,18 @@
+body, html{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'iconicfill', sans-serif;
+  height:99%;
+  width: 100%;
+  background-image: linear-gradient(to right top, #eeeeff, #e8f4ff, #e6f9ff, #e9fcfd, #f0fffa);
+}
+
+.outer{
+  font-size:300%;
+  padding: 5%;
+}
+
+.smallerText{
+  font-size: 180%!important;
+}
