@@ -43,19 +43,19 @@ $(function(){
                                             setTimeout(function () {
                                                 window.location.replace("flagGuess.html");
                                                 //$(".outer").removeClass("smallerText");
-                                            }, 5000);
+                                            }, 8000);
                                         }, 800);
-                                    }, 4000);
+                                    }, 7000);
 
                                 }, 800);
-                            }, 4000);
+                            }, 7000);
 
                         }, 800);
-                    }, 4000);
+                    }, 7000);
 
                 }, 800);
-            }, 6000);
+            }, 8000);
 
         }, 800);
-    }, 2000);
+    }, 30000);
 });

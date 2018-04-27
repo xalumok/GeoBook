@@ -38,26 +38,26 @@ $(function() {
                                         $(".outer").removeClass("fadeIn");
                                         $(".outer").addClass("fadeOut");
                                         setTimeout(function () {
-                                            $(".outer").html("No more text, let's begin!");
+                                            $(".outer").html("The game lasts 90 seconds and starts now!");
                                             $(".outer").removeClass("fadeOut");
                                             $(".outer").addClass("fadeIn");
 
                                             setTimeout(function () {
                                                 location.replace("cityGame.html");
-                                            }, 4000);
+                                            }, 10000);
 
                                         }, 800);
-                                    }, 10000);
+                                    }, 13000);
 
                                 }, 800);
-                            }, 12000);
+                            }, 15000);
 
                         }, 800);
-                    }, 3000);
+                    }, 5000);
 
                 }, 800);
-            }, 3000);
-        }, 1200);
+            }, 5000);
+        }, 2000);
 
         $(".outer").css("padding", "0");
     });
