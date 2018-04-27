@@ -1,17 +1,5 @@
 $(function () {
 
-
-
-    function UrlExists(url){
-        var http = new XMLHttpRequest();
-        http.open('HEAD', url, false);
-        http.send();
-        if (http.status==404){
-            console.log(url);
-        }
-        return http.status!=404;
-    }
-
     var used=[];
     var maxN;
     var alphabet = [];
@@ -80,10 +68,8 @@ $(function () {
 
 
     $.getJSON("json/countries.json").done(function (data){
-        for (let i=0; i < data.length; i++) {
-            if (UrlExists("img/" + (data[i].code2l).toLowerCase() + ".png"))
+        for (let i=0; i < data.length; i++)
                 adata.push(data[i]);
-        }
         maxN = (adata.length);
         for (let i=0; i <1000;i++)
             used[i]=0;

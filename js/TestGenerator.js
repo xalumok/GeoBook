@@ -3,13 +3,6 @@
 $(function() {
     var coments = ["That's right!", "You got it!", "Good work!", "Fantastic!", "Super!", "Excellent!", "Brilliant!", "Wonderful!", "Perfect!"];
     var main = $("main");
-    function UrlExists(url){
-        var http = new XMLHttpRequest();
-        http.open('HEAD', url, false);
-        http.send();
-        return http.status!=404;
-    }
-
     var used = [], quecnt=0, ans, answered=0;
     function newQue(){
         $(".radio").each(function(){
@@ -21,7 +14,7 @@ $(function() {
             var seq = [];
             while (seq.length <= 4) {
                 var rand = Math.floor(Math.random() * maxN);
-                if (UrlExists("img/" + (data[rand].code2l).toLowerCase() + ".png") && $.inArray(rand, seq) === -1 && $.inArray(rand, used) === -1)
+                if ($.inArray(rand, seq) === -1 && $.inArray(rand, used) === -1)
                     seq.push(rand);
             }
             ans = Math.floor(Math.random() * 3);
