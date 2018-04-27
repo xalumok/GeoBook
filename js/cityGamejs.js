@@ -43,7 +43,7 @@ $(function () {
             }
         }
         if (nlist.length===0){
-            $("tbody").append(`<tr class="animated fadeIn"><td class="typewr"></td></td></tr>`);
+            $("tbody").append(`<tr class="animated fadeIn"><td></td><td><span class="typewr"></span></td></td><td></td></tr>`);
             $(".scoretab").addClass("pulse");
             var typed = new Typed(".typewr",{
                 strings: ["You won this time, human!"],
