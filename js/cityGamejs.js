@@ -9,9 +9,6 @@ $(function () {
         return http.status!=404;
     }
 
-
-
-
     var used=[];
     var maxN;
     var alphabet = [];
@@ -64,7 +61,7 @@ $(function () {
         var next = nlist[ind];
         used[parseInt(next.id, 10)]=1;
         last = next.name[next.name.length - 1].toUpperCase();
-        $("tbody").append(`<tr class="animated fadeIn"><td><img style="visibility: hidden" class="flagicon" src="${"img/"+next.code2l+".png"}" alt=""></td><td><span class="typewr"></span></td><td><a href='https://www.google.com/?#q=${(next.name).replace(/ /g, "+").toString()}' target="_blank">Learn more</a></td></tr>`);
+        $("tbody").append(`<tr class="animated fadeIn"><td><img style="visibility: hidden" class="flagicon" src="${"img/"+next.code2l.toLowerCase()+".png"}" alt=""></td><td><span class="typewr"></span></td><td><a href='https://www.google.com/?#q=${(next.name).replace(/ /g, "+").toString()}' target="_blank">Learn more</a></td></tr>`);
         setTimeout(function () {
             var typed = new Typed(".typewr",{
                 strings: [next.name],
@@ -121,7 +118,7 @@ $(function () {
             else{
                 $('.scorecnt').html(parseInt($('.scorecnt').html(), 10)+adding);
                 $(".scoretab").addClass("pulse");
-                $("tbody").append(`<tr class="animated fadeIn"><td><img class="flagicon" src="${"img/"+adata[index].code2l+".png"}" alt=""></td><td>${adata[i].name}</td><td><a href='https://www.google.com/?#q=${(adata[i].name).replace(/ /g, "+").toString()}' target="_blank">Learn more</a></td></tr>`);
+                $("tbody").append(`<tr class="animated fadeIn"><td><img class="flagicon" src="${"img/"+adata[index].code2l.toLowerCase()+".png"}" alt=""></td><td>${adata[i].name}</td><td><a href='https://www.google.com/?#q=${(adata[i].name).replace(/ /g, "+").toString()}' target="_blank">Learn more</a></td></tr>`);
                 last=country[country.length-1].toUpperCase();
                 $("#inputcountry").val("");
                 $(".typewr").removeClass("typewr");

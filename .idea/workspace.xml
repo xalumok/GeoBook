@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e3c15924-f37b-4172-826f-6b026ca8ea21" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/TestGenerator.js" afterPath="$PROJECT_DIR$/js/TestGenerator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/cityGamejs.js" afterPath="$PROJECT_DIR$/js/cityGamejs.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -84,7 +84,7 @@
       <file leaf-file-name="cityGamecss.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/cityGamecss.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1809">
+            <state relative-caret-position="1269">
               <caret line="67" column="3" lean-forward="false" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
               <folding />
             </state>
@@ -94,11 +94,11 @@
       <file leaf-file-name="cityGamejs.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/cityGamejs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="121" column="79" lean-forward="true" selection-start-line="121" selection-start-column="79" selection-end-line="121" selection-end-column="79" />
+            <state relative-caret-position="351">
+              <caret line="125" column="25" lean-forward="true" selection-start-line="125" selection-start-column="25" selection-end-line="125" selection-end-column="25" />
               <folding>
-                <marker date="1524834450634" expanded="true" signature="2336:2599" ph="..." />
-                <marker date="1524834450634" expanded="true" signature="2353:2371" ph="..." />
+                <marker date="1524835838478" expanded="true" signature="2333:2610" ph="..." />
+                <marker date="1524835838478" expanded="true" signature="2350:2368" ph="..." />
               </folding>
             </state>
           </provider>
@@ -186,8 +186,8 @@
         <option value="$PROJECT_DIR$/result2.html" />
         <option value="$PROJECT_DIR$/scss/indexcss.scss" />
         <option value="$PROJECT_DIR$/scss/main.scss" />
-        <option value="$PROJECT_DIR$/js/cityGamejs.js" />
         <option value="$PROJECT_DIR$/js/TestGenerator.js" />
+        <option value="$PROJECT_DIR$/js/cityGamejs.js" />
       </list>
     </option>
   </component>
@@ -380,12 +380,12 @@
       <workItem from="1524722521510" duration="34793000" />
       <workItem from="1524808615093" duration="14806000" />
       <workItem from="1524829307811" duration="5048000" />
-      <workItem from="1524835371333" duration="53000" />
+      <workItem from="1524835371333" duration="473000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87286000" />
+    <option name="totallyTimeSpent" value="87706000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1046" extended-state="6" />
@@ -719,14 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/cityGamecss.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1809">
-          <caret line="67" column="3" lean-forward="false" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -751,13 +743,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scss/cityGamecss.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1269">
+          <caret line="67" column="3" lean-forward="false" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/cityGamejs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="121" column="79" lean-forward="true" selection-start-line="121" selection-start-column="79" selection-end-line="121" selection-end-column="79" />
+        <state relative-caret-position="351">
+          <caret line="125" column="25" lean-forward="true" selection-start-line="125" selection-start-column="25" selection-end-line="125" selection-end-column="25" />
           <folding>
-            <marker date="1524834450634" expanded="true" signature="2336:2599" ph="..." />
-            <marker date="1524834450634" expanded="true" signature="2353:2371" ph="..." />
+            <marker date="1524835838478" expanded="true" signature="2333:2610" ph="..." />
+            <marker date="1524835838478" expanded="true" signature="2350:2368" ph="..." />
           </folding>
         </state>
       </provider>
