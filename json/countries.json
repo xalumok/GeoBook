@@ -520,19 +520,6 @@
         "zoom": "6"
     },
     {
-        "id": "181",
-        "enabled": "1",
-        "code3l": "COK",
-        "code2l": "CK",
-        "name": "Cook Islands",
-        "name_official": "Cook Islands",
-        "flag_32": "CK-32.png",
-        "flag_128": "CK-128.png",
-        "latitude": "-21.23673066",
-        "longitude": "-159.77766900",
-        "zoom": "13"
-    },
-    {
         "id": "39",
         "enabled": "1",
         "code3l": "CRI",
@@ -910,19 +897,6 @@
         "zoom": "7"
     },
     {
-        "id": "211",
-        "enabled": "1",
-        "code3l": "GGY",
-        "code2l": "GG",
-        "name": "Guernsey",
-        "name_official": "Bailiwick of Guernsey",
-        "flag_32": "GG-32.png",
-        "flag_128": "GG-128.png",
-        "latitude": "49.46565975",
-        "longitude": "-2.58527200",
-        "zoom": "12"
-    },
-    {
         "id": "67",
         "enabled": "1",
         "code3l": "GIN",
@@ -1077,19 +1051,6 @@
         "latitude": "53.10101628",
         "longitude": "-8.21092302",
         "zoom": "6"
-    },
-    {
-        "id": "219",
-        "enabled": "1",
-        "code3l": "IMN",
-        "code2l": "IM",
-        "name": "Isle of Man",
-        "name_official": "The Isle of Man",
-        "flag_32": "IM-32.png",
-        "flag_128": "IM-128.png",
-        "latitude": "54.23562697",
-        "longitude": "-4.54805400",
-        "zoom": "10"
     },
     {
         "id": "78",
